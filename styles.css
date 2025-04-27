@@ -13,6 +13,13 @@ body {
     line-height: 1.6;
 }
 
+/* Désactiver le défilement horizontal sur les appareils mobiles et tablettes */
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
 /* HEADER */
 header {
     display: flex;
@@ -132,7 +139,6 @@ nav ul li a:hover {
         display: none;
     }
 }
-
 
 .logo {
     font-size: 1.8rem;
