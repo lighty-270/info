@@ -11,13 +11,7 @@ body {
     background: #0e0e0e;
     color: #fff;
     line-height: 1.6;
-}
-
-/* Désactiver le défilement horizontal sur les appareils mobiles et tablettes */
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
+    overflow-x: hidden; /* Désactiver le défilement horizontal */
 }
 
 /* HEADER */
