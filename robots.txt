@@ -1,0 +1,16 @@
+# Robots.txt pour le site Lighty - Section Info
+# Permet à tous les robots d'explorer le site
+
+User-agent: *
+Allow: /
+
+# Localisation du sitemap XML
+Sitemap: https://lighty-270.github.io/info/sitemap.xml
+
+# Optionnel : Si vous avez des dossiers à bloquer plus tard
+# Disallow: /admin/
+# Disallow: /temp/
+# Disallow: /private/
+
+# Crawl-delay (optionnel - délai en secondes entre les requêtes)
+# Crawl-delay: 1
