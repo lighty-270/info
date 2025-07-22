@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Localisation du sitemap XML
-Sitemap: https://lighty-270.github.io/info/sitemap.xml
+Sitemap: https://lighty-270.github.io/info/sitemap_2.xml
 
 # Optionnel : Si vous avez des dossiers à bloquer plus tard
 # Disallow: /admin/
